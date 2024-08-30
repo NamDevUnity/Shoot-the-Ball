@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a461b204652c724b8f5ab96761b9107, type: 3}
+  m_Name: NEW_POOLER
+  m_EditorClassIdentifier: 
+  id: 1724845734555969352696
+  target: 0
+  categories:
+  - name: Ball Form
+    id: 1724845754697967831642
+  - name: Other
+    id: 1724845761640907395296
+  - name: Vfx
+    id: 1724845769806606395657
+  pools:
+  - poolName: Bullet
+    id: 1724845794331717174171
+    prefab: {fileID: 4680800361881914224, guid: 035d58ee80b8ecf41ae33b9ea200f921, type: 3}
+    startingParent: {fileID: 0}
+    startingQuantity: 0
+    category: 1724845761640907395296
